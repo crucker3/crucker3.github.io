@@ -1,4 +1,4 @@
-var covidData = {"type":"FeatureCollection","features":
+var provinces = {"type":"FeatureCollection","features":
 [{"type":"Feature","properties":
 {"1":258,"2":270,"3":375,"4":375,"5":375,"6":375,"7":375,"8":375,"9":7153,"10":7153
 ,"11":7153,"12":7153,"13":9074,"14":11177,"15":13522,"covid":16678,"Location":"Hube
