@@ -39,6 +39,12 @@ h2 {
 //width and height of the visualization 
 		var width = 1000; 
 		var height = 600; 
+		var lowColor = '#bc2a66' 
+		var highColor = '#f9f9f9'
+		var minVal = 1900 
+		var maxVal = 2020
+		var ramp = d3.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor]);
+		
 
 //create the SVG 
 		var svg = d3.select("body") 
@@ -74,7 +80,7 @@ h2 {
 		.data( lnkbldngsjson.features ) 
 		.enter() 
 		.append( "path" ) 
-		.attr( "fill", "#900" ) 
+		.attr ( "fill", function(d) { return ramp(d.properties.RESYRBLT) })
 		.attr( "stroke", "#999" ) 
 		.attr( "d", geoPath ) 
 
