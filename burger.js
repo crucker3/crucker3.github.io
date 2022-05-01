@@ -1,8 +1,4 @@
-var burger = {
-"type": "FeatureCollection",
-"name": "RestaurantLocations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var burger = [
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.82281519, "Lat": -96.68304941, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68304941, 40.82281519 ] } },
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.81934021, "Lat": -96.65429613000001, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.65429613, 40.81934021 ] } },
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.86039253, "Lat": -96.68312805, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68312805, 40.86039253 ] } },
@@ -33,4 +29,3 @@ var burger = {
 { "type": "Feature", "properties": { "name": "Wendy's", "Long": 40.74085701, "Lat": -96.68318512, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68318512, 40.74085701 ] } },
 { "type": "Feature", "properties": { "name": "Wendy's", "Long": 40.73495392, "Lat": -96.60275683, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.60275683, 40.73495392 ] } },
 ]
-}
