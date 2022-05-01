@@ -1,8 +1,4 @@
-var pizza = {
-"type": "FeatureCollection",
-"name": "RestaurantLocations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var pizza = [
 { "type": "Feature", "properties": { "name": "Domino's Pizza", "Long": 40.83615942, "Lat": -96.70698684, "type": "Pizza", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.70698684, 40.83615942 ] } },
 { "type": "Feature", "properties": { "name": "Domino's Pizza", "Long": 40.83615942, "Lat": -96.65480178, "type": "Pizza", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.65480178, 40.83615942 ] } },
 { "type": "Feature", "properties": { "name": "Domino's Pizza", "Long": 40.81485634, "Lat": -96.70321029, "type": "Pizza", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.70321029, 40.81485634 ] } },
@@ -32,4 +28,3 @@ var pizza = {
 { "type": "Feature", "properties": { "name": "Valentino's", "Long": 40.74051531, "Lat": -96.68040083, "type": "Pizza", "Level": "Local" }, "geometry": { "type": "Point", "coordinates": [ -96.68040083, 40.74051531 ] } },
 { "type": "Feature", "properties": { "name": "Valentino's", "Long": 40.74077543, "Lat": -96.68040083, "type": "Pizza", "Level": "Local" }, "geometry": { "type": "Point", "coordinates": [ -96.68040083, 40.74077543 ] } },
 ]
-}
