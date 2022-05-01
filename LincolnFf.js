@@ -1,8 +1,4 @@
-var LincolnFood = {
-"type": "FeatureCollection",
-"name": "RestaurantLocations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var LincolnFood = [
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.82281519, "Lat": -96.68304941, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68304941, 40.82281519 ] } },
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.81934021, "Lat": -96.65429613000001, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.65429613, 40.81934021 ] } },
 { "type": "Feature", "properties": { "name": "McDonald's", "Long": 40.86039253, "Lat": -96.68312805, "type": "Burger", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68312805, 40.86039253 ] } },
@@ -107,4 +103,4 @@ var LincolnFood = {
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.84297494, "Lat": -96.62539238, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.62539238, 40.84297494 ] } },
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.83451998, "Lat": -96.63117289, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.63117289, 40.83451998 ] } }
 ]
-}
+
