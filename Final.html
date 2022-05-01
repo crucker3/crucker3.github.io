@@ -22,6 +22,7 @@
 	  <script src="https://crucker3.github.io/pizza.js"></script>
 	  <script src="https://crucker3.github.io/chicken.js"></script>
 	  <script src="https://crucker3.github.io/general.js"></script>
+	  <script src="https://crucker3.github.io/grocery.js"></script>
 	  <link rel="stylesheet" type="text/css" href="https://dsps.lib.uiowa.edu/placing/css/style.css">
 	  <link rel="stylesheet" type="text/css" href="https://dsps.lib.uiowa.edu/placing/css/navwrap.css">
   
@@ -57,7 +58,7 @@
         if (feature.properties) {
           var prop = feature.properties;
 
-            var popup = '<h3>'+prop['name']+'</h3>'+'<br><strong>What kind of restaurant is this? </strong>'+prop['type']+'<br><strong>How well known is this business? </strong>'+prop['Level']+'<br><br>Locations where collected from Google maps';
+            var popup = '<h3>'+prop['name']+'</h3>'+'<br><strong>What kind of restaurant is this? </strong>'+prop['type']+'<br><strong>How well known is this business? </strong>'+prop['Level']+'<br><br>Locations where collected from Google maps or provided by Dr. Robert Shepard.';
           feature.layer = layer;
           layer.bindPopup(popup, {maxWidth: "auto"});
         }
@@ -214,7 +215,8 @@
 			"Pizza": pizza,
 			"Tex/Mex": taco,
 			"Chicken": chicken,
-			"General Store": general
+			"General Store": general,
+			"Grocery": grocery
 	  };
 	  
 	  		var baseMaps = {
