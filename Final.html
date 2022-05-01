@@ -140,7 +140,7 @@
 
           container.appendChild(L.DomUtil.create('br', null, container));
 
-          var cat = props.name ? props.type : props.Level,
+          var cat = props.name ? props.SICDESC : props.Level,
               info = cat;
           container.appendChild(document.createTextNode(info));
         }
@@ -205,6 +205,11 @@
     }});
 	
 	var general = new L.geoJson(general, {
+	  onEachFeature: onEachFeature,
+		pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, greenCircleMarkers);
+    }});
+	var grocery = new L.geoJson(grocery, {
 	  onEachFeature: onEachFeature,
 		pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, greenCircleMarkers);
