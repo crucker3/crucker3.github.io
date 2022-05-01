@@ -1,8 +1,4 @@
-var taco = {
-"type": "FeatureCollection",
-"name": "RestaurantLocations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var taco = [
 { "type": "Feature", "properties": { "name": "Taco Bell", "Long": 40.84537706, "Lat": -96.68123712000001, "type": "Mexican or Tex/Mex", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.68123712, 40.84537706 ] } },
 { "type": "Feature", "properties": { "name": "Taco Bell", "Long": 40.81446367, "Lat": -96.74337853, "type": "Mexican or Tex/Mex", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.74337853, 40.81446367 ] } },
 { "type": "Feature", "properties": { "name": "Taco Bell", "Long": 40.81368415, "Lat": -96.65686121, "type": "Mexican or Tex/Mex", "Level": "National" }, "geometry": { "type": "Point", "coordinates": [ -96.65686121, 40.81368415 ] } },
@@ -24,4 +20,3 @@ var taco = {
 { "type": "Feature", "properties": { "name": "Taco Inn", "Long": 40.81137957, "Lat": -96.62591475000001, "type": "Mexican or Tex/Mex", "Level": "Local" }, "geometry": { "type": "Point", "coordinates": [ -96.62591475, 40.81137957 ] } },
 { "type": "Feature", "properties": { "name": "Taco Inn", "Long": 40.77239076, "Lat": -96.65475386, "type": "Mexican or Tex/Mex", "Level": "Local" }, "geometry": { "type": "Point", "coordinates": [ -96.65475386, 40.77239076 ] } },
 ]
-}
