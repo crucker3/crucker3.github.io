@@ -1,8 +1,4 @@
-var general = {
-"type": "FeatureCollection",
-"name": "RestaurantLocations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
+var general = [
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.87940639, "Lat": -96.77838298, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.77838298, 40.87940639 ] } },
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.8418088, "Lat": -96.78686104000001, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.78686104, 40.8418088 ] } },
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.81498198, "Lat": -96.74948047, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.74948047, 40.81498198 ] } },
@@ -23,4 +19,3 @@ var general = {
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.84297494, "Lat": -96.62539238, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.62539238, 40.84297494 ] } },
 { "type": "Feature", "properties": { "name": "Casey's", "Long": 40.83451998, "Lat": -96.63117289, "type": "General Store", "Level": "Regional" }, "geometry": { "type": "Point", "coordinates": [ -96.63117289, 40.83451998 ] } }
 ]
-}
