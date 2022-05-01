@@ -58,7 +58,7 @@
         if (feature.properties) {
           var prop = feature.properties;
 
-            var popup = '<h3>'+prop['name']+'</h3>'+'<br><strong>What kind of restaurant is this? </strong>'+prop['type']+'<br><strong>How well known is this business? </strong>'+prop['Level']+'<br><br>Locations where collected from Google maps or provided by Dr. Robert Shepard.';
+            var popup = '<h3>'+prop['name']+'</h3>'+'<br><strong>What kind of restaurant is this? </strong>'+prop['SICDESC']+'<br><strong>How well known is this business? </strong>'+prop['Level']+'<br><br>Locations where collected from Google maps or provided by Dr. Robert Shepard.';
           feature.layer = layer;
           layer.bindPopup(popup, {maxWidth: "auto"});
         }
