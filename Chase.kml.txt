@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="transRedPoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>641400DC</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Chase Hall</name>
+      <styleUrl>#transRedPoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates> -96.66853501517238, 40.831194555134594, 16
+				-96.66853979432659, 40.83125783677029, 16
+				-96.66858997544583, 40.83126326090768, 16
+				-96.66858997544583, 40.83142417678176, 16
+				-96.66866405233613, 40.83142417678176, 16
+				-96.66867122106746, 40.83164837352826, 16
+				-96.66918736972248, 40.831646565493, 16
+				-96.66918736972248, 40.83142236874041, 16
+				-96.66927817365253, 40.83142236874041, 16
+				-96.66927817365253, 40.83126506895337, 16
+				-96.66932357561757, 40.83126506895337, 16
+				-96.66932596519467, 40.83120359537198, 16
+				-96.66928534238384, 40.831205403419304, 16
+				-96.66928056322963, 40.83119274708699, 16
+				-96.66853979432659, 40.83119274708699, 16
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
